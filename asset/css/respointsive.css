@@ -1,0 +1,81 @@
+/* PC */
+@media screen and (min-width: 64em) {
+    
+}
+
+/* TABLET */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* MOBILE */
+@media screen and (max-width: 46.1875em) {
+    #header .search-btn {
+        display: none;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #nav > li {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #header .mobile-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    #header .mobile-btn {
+        display: block;
+    }
+
+    #conten .member-img {
+        width: 229px;
+    }
+
+    #conten .member-item {
+        width: 100%;
+    }
+
+    #conten .member-name {
+        margin-top: 31px;
+    }
+
+    #conten .place-item {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    #conten .place-buy-ticket {
+        width: 100%;
+        text-align: center;
+    }
+
+    #conten .contact-from {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    #conten .contact-info {
+        width: 100%;
+    }
+
+    #conten .from-btn-control {
+        width: 100%;
+    }
+
+    #conten .contact-btn {
+        width: 100%;
+    }
+}
